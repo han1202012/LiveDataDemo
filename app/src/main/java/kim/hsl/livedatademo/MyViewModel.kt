@@ -4,9 +4,9 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
 class MyViewModel: ViewModel {
-    var second: MutableLiveData<Int> = MutableLiveData<Int>()
+    var progress: MutableLiveData<Int> = MutableLiveData<Int>()
 
     constructor() {
-        second.value = 0
+        progress.value = 0
     }
 }
